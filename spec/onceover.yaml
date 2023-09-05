@@ -47,7 +47,7 @@ class_groups:
 # we can give you fact sets though so go crazy with spec testing!
 node_groups:
   windows_nodes:
-    - windows-server-2k16
+    - windows-server-2k19
   unix_nodes:
     include: 'all_nodes'
     exclude: 'windows_nodes'
