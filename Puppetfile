@@ -83,7 +83,6 @@ mod 'jpadams-puppet_vim_env', '2.4.1' # There is a bug in 2.4.1
 mod 'kogitoapp-gitea', '1.0.4' # Do we need this, it is out of date and requires very old inifile and stdlib; part of
                               # profile::puppet::seteam_master
 mod 'lwf-remote_file', '1.1.3'
-mod 'nexcess-auditd', '4.1.0' # Last supported on 2017.  Part of profile::compliance::hippa
 mod 'puppet-archive', '7.0.0'
 mod 'puppet-epel', '5.0.0'
 mod 'puppet-firewalld', '4.5.1'
@@ -107,15 +106,7 @@ mod 'sensu-sensu', '5.11.1'
 mod 'trlinkin-domain_membership', '1.1.2'
 mod 'tse-time', '1.0.1'
 mod 'tse-winntp', '1.0.1'
-mod 'puppet-staging', '3.2.0'
 mod 'artsir-ansible_config', '1.1.3'
-
-# This is missing dependency on mayflower-php, needs updated to use puppet-php at least
-# This is missing dependency on puppet-app_modeling, is it needed?
-mod 'rgbank',
-    git:            'https://github.com/puppetlabs-seteam/puppetlabs-rgbank.git',
-    branch:         :control_branch,
-    default_branch: 'master'
 
 mod 'netstat',
     git: 'https://github.com/ipcrm/ipcrm-netstat.git',
