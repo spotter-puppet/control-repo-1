@@ -1,12 +1,12 @@
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod 'puppetlabs-augeas_core', '1.3.0'
+mod 'puppetlabs-augeas_core', '1.4.1'
 mod 'puppetlabs-host_core', '1.2.0'
 mod 'puppetlabs-selinux_core', '1.3.0'
 mod 'puppetlabs-sshkeys_core', '2.4.0'
 mod 'puppetlabs-yumrepo_core', '2.0.0'
 mod 'puppetlabs-acl', '5.0.0'
-mod 'puppetlabs-apache', '10.1.1'
+mod 'puppetlabs-apache', '11.1.0'
 mod 'puppetlabs-apt', '9.1.0'
 mod 'puppetlabs-aws', '2.1.0'
 mod 'puppetlabs-azure', '1.3.1'
@@ -16,16 +16,16 @@ mod 'puppetlabs-cd4pe_jobs', '1.6.0'
 mod 'puppetlabs-chocolatey', '8.0.0'
 mod 'puppetlabs-cisco_ios', '2.0.0'
 mod 'puppetlabs-ciscopuppet', '2.1.0'
-mod 'puppetlabs-comply', '2.15.0'
+mod 'puppetlabs-comply', '2.16.0'
 mod 'puppetlabs-concat', '9.0.0'
 mod 'puppetlabs-device_manager', '4.0.0'
 mod 'puppetlabs-dism', '1.3.1'
 mod 'puppetlabs-docker', '9.1.0'
 mod 'puppetlabs-exec', '3.0.0'
 mod 'puppetlabs-facter_task', '2.0.1'
-mod 'puppetlabs-firewall', '6.0.0'
+mod 'puppetlabs-firewall', '7.0.2'
 mod 'puppetlabs-git', '0.5.0'
-mod 'puppetlabs-haproxy', '7.2.0'
+mod 'puppetlabs-haproxy', '7.2.1'
 mod 'puppetlabs-hocon', '1.1.0'
 mod 'puppetlabs-iis', '10.0.0'
 mod 'puppetlabs-inifile', '6.1.0'
@@ -54,7 +54,7 @@ mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 mod 'puppetlabs-servicenow_reporting_integration', '1.0.0'
 mod 'puppetlabs-splunk_hec', '1.4.0' # Missing requirement of puppetlabs-puppet_metrics_collector
 mod 'puppetlabs-sqlserver', '4.1.0'
-mod 'puppetlabs-stdlib', '9.3.0'
+mod 'puppetlabs-stdlib', '9.4.0'
 mod 'puppetlabs-tomcat', '7.1.0'
 mod 'puppetlabs-transition', '2.0.0'
 mod 'puppetlabs-vcsrepo', '6.1.0'
@@ -79,20 +79,20 @@ mod 'herculesteam-augeasproviders_ssh', '4.0.0'
 mod 'hunner-wordpress', '1.0.0'
 mod 'ipcrm-echo', '0.1.8'
 mod 'jdowning-rbenv', '3.0.0'
-mod 'jpadams-puppet_vim_env', '2.4.1' # There is a bug in 2.4.1
+mod 'jpadams-puppet_vim_env', '2.4.0' # There is a bug in 2.4.1
 mod 'kogitoapp-gitea', '1.0.4' # Do we need this, it is out of date and requires very old inifile and stdlib; part of 
                               # profile::puppet::seteam_master
 mod 'lwf-remote_file', '1.1.3'
-mod 'nexcess-auditd', '4.1.0' # Last supported on 2017.  Part of profile::compliance::hippa
+mod 'nexcess-auditd', '4.2.0' # Part of profile::compliance::hippa
 mod 'puppet-archive', '7.0.0'
 mod 'puppet-epel', '5.0.0'
 mod 'puppet-firewalld', '4.5.1'
 mod 'puppet-gitlab', '8.1.0'
 mod 'puppet-hiera', '5.0.1'
-mod 'puppet-jenkins', '3.3.0' # Do we need this, it is out of date and requires java < 5.0.0, and zypprepo
+mod 'puppet-jenkins', '4.0.0' # Do we need this, it is out of date and requires java < 5.0.0, and zypprepo
 mod 'puppet-logrotate', '7.0.0'
 mod 'puppet-nginx', '5.0.0'
-mod 'puppet-php', '9.0.0' # Requires zypprepo
+mod 'puppet-php', '10.0.0' # Requires zypprepo
 mod 'puppet-python', '7.0.0'
 mod 'puppet-rabbitmq', '13.0.0'
 mod 'puppet-redis', '9.1.0'
