@@ -1,3 +1,4 @@
+#class: profile::puppet::master::fileserver
 class profile::puppet::master::fileserver (
   $user  = 'root',
   $group = 'root',
@@ -19,10 +20,10 @@ class profile::puppet::master::fileserver (
   }
 
   firewall { '110 apache allow all':
-    dport  => '81',
-    chain  => 'INPUT',
-    proto  => 'tcp',
-    action => 'accept',
+    dport => '81',
+    chain => 'INPUT',
+    proto => 'tcp',
+    jump  => 'accept',
   }
 
   include ::profile::puppet::master::fileserver::jdk

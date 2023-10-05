@@ -1,3 +1,4 @@
+#class: profile::platform::baseline::linux::firewall
 class profile::platform::baseline::linux::firewall (
   $purge = false,
 ) {

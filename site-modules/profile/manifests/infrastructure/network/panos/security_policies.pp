@@ -1,3 +1,4 @@
+#class: profile::infrastructure::network::panos::security_policies
 class profile::infrastructure::network::panos::security_policies {
   resources { 'panos_security_policy_rule':
     purge => true,
